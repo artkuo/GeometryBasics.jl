@@ -77,7 +77,7 @@ The same goes for polygons:
 Polygon(Point{2, Int}[(3, 1), (4, 4), (2, 4), (1, 2), (3, 1)])
 ```
 
-Create a rectangle placed at the origin with unit width and height:
+Create a rectangle specified by one corner at the origin and unit width and height:
 
 ```@repl quickstart
 rect = Rect(Vec(0.0, 0.0), Vec(1.0, 1.0))
